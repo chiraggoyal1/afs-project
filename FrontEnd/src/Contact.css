@@ -1,0 +1,79 @@
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2; /* Set background color */
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('l12.png'); /* Add gradient overlay and background pattern */
+    background-size: cover;
+    background-position: center;
+    padding: 20px; /* Add padding */
+}
+
+.contact-heading {
+    font-size: 2.5rem;
+    color: #333; /* Set text color */
+    margin-bottom: 20px;
+}
+
+.contact-description {
+    font-size: 1.1rem;
+    color: #666; /* Set text color */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form {
+    width: 100%;
+    max-width: 500px; /* Set max width for form */
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1rem;
+    color: #333; /* Set text color */
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Add transitions for smooth hover and click effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+}
+
+.submit-button:hover {
+    background-color: #0056b3; /* Darker color on hover */
+}
+
+.submit-button:focus {
+    outline: none; /* Remove outline on focus */
+}
+
+.submit-button:active {
+    transform: translateY(1px); /* Add slight downward movement when clicked */
+    box-shadow: none; /* Remove shadow when clicked */
+}

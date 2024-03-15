@@ -1,0 +1,26 @@
+.describe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:  url('l9.avif'); /* Apply gradient overlay on top of the background image */
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Set text color to white for better contrast */
+  }
+  .title {
+    font-size: 3rem;
+    margin-bottom: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  .video-wrapper {
+    max-width: 700px;
+  }
+  
+  .video {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow to the video */
+  }

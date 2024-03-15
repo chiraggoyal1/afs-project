@@ -1,0 +1,74 @@
+.create-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image:  url('l10.jpg'); /* Apply gradient overlay on top of the background image */
+  background-size: cover;
+  background-position: center;
+  padding: 20px; /* Add padding */
+}
+
+.back-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 12px 24px; /* Increase padding for better clickability */
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+
+.back-button:hover {
+  background-color: #0056b3; /* Darker color on hover */
+}
+.back-button:focus {
+  outline: none; /* Remove outline on focus */
+}
+.back-button:active {
+  transform: translateY(1px); /* Add slight downward movement when clicked */
+}
+.create-form {
+  width: 100%;
+  max-width: 500px; /* Set max width for form */
+}
+
+.create-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px; /* Add margin bottom */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.create-button {
+  width: 100%;
+  padding: 12px 24px; /* Increase padding for better clickability */
+  background-color: #28a745; /* Set button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+.create-button:hover {
+  background-color: #218838; /* Darker color on hover */
+}
+.create-button:focus {
+  outline: none; /* Remove outline on focus */
+}
+.create-button:active {
+  transform: translateY(1px); /* Add slight downward movement when clicked */
+}
+h1 {
+  font-size: 2.5rem; /* Increase font size */
+  color: #333; /* Set text color */
+  text-align: center; /* Center align text */
+  margin-bottom: 30px; /* Add margin bottom for separation */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle text shadow */
+}
